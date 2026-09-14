@@ -18,7 +18,6 @@ const router = require("./api/api_user");
 app.use("/", router);
 app.use("/user", require("./api/api_user"));
 app.use("/visual_in", require("./api/api_visual_in"));
-app.use("/visual_in_test", require("./api/api_visual_in_test")); // สำหรับทดสอบหน้า input_visual โดยไม่กระทบข้อมูลจริง
 app.use("/api", require("./api/api_test1")); 
 app.use("/api_getData", require("./api/api_getDataWipStoreMcShop")); 
 app.use("/register-rfid", require("./api/master_rfid")); 
